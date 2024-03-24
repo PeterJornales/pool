@@ -5,33 +5,46 @@
     <title>Swimming Spots</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f0f0; /* Light grey background */
-            margin: 0;
-            padding: 0;
-        }
-        .container {
-            max-width: 800px; /* Adjust the width as needed */
-            margin: 0 auto; /* This centers the container */
-            background-color: #ffffff; /* White background for the content */
-            padding: 20px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* A subtle shadow */
-        }
-        .section {
-            margin-bottom: 40px; /* Spacing between sections, adjust as needed */
-        }
-        h2 {
-            background-color: #007bff; /* Blue background for headings */
-            color: white;
-            padding: 10px;
-            text-align: center;
-        }
-        .section img {
-            display: block;
-            margin: 0 auto; /* Center the image */
-            max-width: 100%; /* Make the image responsive */
-            height: auto;
-        }
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* This sets the background color of the entire page */
+    margin: 0;
+    padding: 0;
+    padding-top: 20px; /* Add padding to the top of the page */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff; /* Adjust if you need a different color for container background */
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section {
+    background-color: #007bff; /* Set the background color of each section to blue */
+    margin-bottom: 60px; /* Adjust this value to match the gap in the screenshot */
+    padding: 10px 0; /* Add padding to top and bottom of section */
+    box-sizing: border-box;
+}
+
+.section img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    /* If your images have white space, remove it or adjust below */
+    padding: 10px; /* Add padding around the image if needed */
+    background-color: #f0f0f0; /* This sets the background color around the image */
+}
+
+/* Additional styles to handle the wavy separation if needed */
+.wave-separator {
+    height: 20px; /* Adjust height as needed */
+    background-image: url('path-to-wave-image.png'); /* Point to your wavy border image */
+    background-size: cover;
+}
+
     </style>
 </head>
 <body>
